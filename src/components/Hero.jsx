@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import OrderButton from './OrderButton'
 
 const Hero = () => {
   // Add floating decoration elements
@@ -23,7 +22,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="bg-pink-100 text-center pt-32 pb-24 px-4 overflow-hidden relative">
+    <section id="home" className="bg-pink-100 text-center pt-48 pb-40 px-4 overflow-hidden relative">
       {/* Add floating decorative elements */}
       {decorElements.map((elem, index) => (
         <motion.span
@@ -59,18 +58,22 @@ const Hero = () => {
         Crafting moments of joy with every bite since 1995. Our artisanal pastries blend traditional recipes with modern creativity.
       </motion.p>
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
-        <OrderButton
+        <motion.a
           href="#menu"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           className="bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg hover:bg-pink-600 transition w-64 md:w-auto"
         >
           Explore Our Menu
-        </OrderButton>
-        <OrderButton
+        </motion.a>
+        <motion.a
           href="#cake-builder"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           className="bg-white text-pink-500 px-8 py-4 rounded-full shadow-lg hover:bg-pink-50 transition w-64 md:w-auto"
         >
           Design Your Cake
-        </OrderButton>
+        </motion.a>
       </div>
     </section>
   )

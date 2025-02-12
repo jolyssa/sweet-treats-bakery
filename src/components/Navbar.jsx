@@ -18,7 +18,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-pink-500 text-xl md:text-2xl font-fredoka">
+          <div className="text-pink-500 text-xl md:text-2xl font-fredoka"  href="#home">
             Sweet Treats
           </div>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* Desktop menu */}
           <ul className="hidden md:flex space-x-8">
-            {['Home', 'Menu', 'About', 'Contact'].map((item) => (
+            {['Home', 'About', 'Menu', 'Contact'].map((item) => (
               <motion.li
                 key={item}
                 whileHover={{ scale: 1.1 }}
@@ -71,7 +71,7 @@ const Navbar = () => {
             className="md:hidden"
           >
             <ul className="pt-4 pb-2">
-              {['Home', 'Menu', 'About', 'Contact'].map((item) => (
+              {['Home', 'About', 'Menu', 'Contact'].map((item) => (
                 <motion.li key={item} className="mb-2">
                   <a
                     href={`#${item.toLowerCase()}`}

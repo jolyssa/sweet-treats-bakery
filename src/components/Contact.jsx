@@ -18,16 +18,17 @@ const Contact = () => {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            className="text-center md:text-left"
           >
             <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
             <div className="space-y-4">
-              <p className="flex items-center text-gray-700">
+              <p className="flex items-center text-gray-700 justify-center md:justify-start">
                 📍 123 Bakery Street, Sweet Town
               </p>
-              <p className="flex items-center text-gray-700">
+              <p className="flex items-center text-gray-700 justify-center md:justify-start">
                 📞 (555) 123-4567
               </p>
-              <p className="flex items-center text-gray-700">
+              <p className="flex items-center text-gray-700 justify-center md:justify-start">
                 ✉️ hello@sweettreats.com
               </p>
             </div>

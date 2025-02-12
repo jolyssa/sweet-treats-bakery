@@ -4,6 +4,10 @@ import lavenderHoney from '../assets/lav-cake.jpg'
 import matchaCake from '../assets/matcha-cake.jpg'
 
 const BakersSpecial = () => {
+  const handleOrder = () => {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+  }
+
   const specials = [
     {
       name: "Today's Special",
@@ -32,7 +36,7 @@ const BakersSpecial = () => {
   ]
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-white to-pink-50">
+    <section id="bakersspecial" className="py-20 px-4 bg-gradient-to-b from-white to-pink-50">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -75,6 +79,7 @@ const BakersSpecial = () => {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={handleOrder}
                     className="bg-pink-500 text-white px-4 py-2 rounded-xl hover:bg-pink-600 transition-colors"
                   >
                     Order Now

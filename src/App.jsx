@@ -10,25 +10,28 @@ import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import BakersSpecial from './components/BakersSpecial'
 import Contact from './components/Contact'
+import { AnimatePresence } from 'framer-motion'
 
 const App = () => {
   return (
-    <div className="flex flex-col">
-      <Sparkles />
-      <Toast />
-      <Navbar />
-      <main>
-        <Hero />
-        <Featured />
-        <About />
-        <Menu />
-        <BakersSpecial />
-        <CakeBuilder />
-        <Testimonials />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <AnimatePresence mode="wait">
+      <div className="flex flex-col" key="app">
+        <Sparkles />
+        <Toast />
+        <Navbar />
+        <main>
+          <Hero />
+          <Featured />
+          <About />
+          <Menu />
+          <BakersSpecial />
+          <CakeBuilder />
+          <Testimonials />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </AnimatePresence>
   )
 }
 
