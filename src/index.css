@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Custom Base Styles */
+@layer base {
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Utility class for headings using Fredoka One */
+    .font-fredoka {
+      font-family: 'Fredoka One', cursive;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @keyframes sparkle {
+    0%, 100% { opacity: 0; transform: scale(0); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+  }
+
+  /* Add hover effects to images */
+  .hover-lift {
+    transition: transform 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Add subtle gradient backgrounds */
+  .gradient-bg {
+    background: linear-gradient(135deg, #fdf2f8 0%, #fff 100%);
+  }
