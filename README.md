@@ -1,6 +1,13 @@
 # Sweet Treats Bakery
 
+
+![](assets/20250211_220214_image.png)
+
 A delightful website for a  bakery that brings joy through delicious pastries and custom cakes. Built with React, Tailwind CSS, and Framer Motion to create a smooth, engaging user experience.
+
+
+
+See it live **here:** https://sweet-treats-bakery.pages.dev/
 
 ## About
 
@@ -27,8 +34,6 @@ Sweet Treats Bakery is a passion project that combines my love for web developme
 ## Design Philosophy
 
 The design aims to capture the warmth and joy of a local bakery while providing modern functionality. Pink accents, playful animations, and a clean layout create an inviting atmosphere that makes visitors crave something sweet.
-
-
 
 ## Examples:
 
