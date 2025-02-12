@@ -1,8 +1,41 @@
-# React + Vite
+# Sweet Treats Bakery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A delightful website for a  bakery that brings joy through delicious pastries and custom cakes. Built with React, Tailwind CSS, and Framer Motion to create a smooth, engaging user experience.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sweet Treats Bakery is a passion project that combines my love for web development and desserts. The website features:
+
+- Interactive cake builder where customers can design their dream cake
+- Animated elements that bring the sweet experience to life
+- Responsive design that looks great on all devices
+- Special sections highlighting featured items and baker's specials
+- Testimonials from happy customers
+
+## Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- React Hot Toast
+- React Intersection Observer
+- PostCSS
+- ESLint
+- Google Fonts (Fredoka)
+
+## Design Philosophy
+
+The design aims to capture the warmth and joy of a local bakery while providing modern functionality. Pink accents, playful animations, and a clean layout create an inviting atmosphere that makes visitors crave something sweet.
+
+
+
+## Examples:
+
+*Want to explore more? Check out more of my projects below:*
+
+**Edu Resources:** [https://eduresources.site/](https://eduresources.site/)
+
+**Moji Static Studios:** [https://mojistaticstudios.com/](https://mojistaticstudios.com/)
+
+**Portfolio:** [https://jolyssa.info/](https://jolyssa.info/)

@@ -46,12 +46,7 @@ const Navbar = () => {
 
           {/* Desktop menu */}
           <ul className="hidden md:flex space-x-8">
-            {[
-              'Home',
-              'About',
-              'Menu',
-              'Contact'
-            ].map((item) => (
+            {['Home', 'Menu', 'About', 'Contact'].map((item) => (
               <motion.li
                 key={item}
                 whileHover={{ scale: 1.1 }}
@@ -76,12 +71,7 @@ const Navbar = () => {
             className="md:hidden"
           >
             <ul className="pt-4 pb-2">
-              {[
-                'Home',
-                'About',
-                'Menu',
-                'Contact'
-              ].map((item) => (
+              {['Home', 'Menu', 'About', 'Contact'].map((item) => (
                 <motion.li key={item} className="mb-2">
                   <a
                     href={`#${item.toLowerCase()}`}
